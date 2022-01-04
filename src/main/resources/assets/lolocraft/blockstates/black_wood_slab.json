@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lolocraft:block/black_wood_slab"
+    },
+    "type=top": {
+      "model": "lolocraft:block/black_wood_slab_top"
+    },
+    "type=double": {
+      "model": "lolocraft:block/black_wood_slab_full"
+    }
+  }
+}

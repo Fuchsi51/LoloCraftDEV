@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lolocraft:blocks/white_ore",
+    "particle": "lolocraft:blocks/white_ore"
+  }
+}

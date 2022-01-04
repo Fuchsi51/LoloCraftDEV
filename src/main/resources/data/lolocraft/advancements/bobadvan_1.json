@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "lolocraft:bobweapon"
+    },
+    "title": {
+      "translate": "advancements.bobadvan_1.title"
+    },
+    "description": {
+      "translate": "advancements.bobadvan_1.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "bobadvan_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "lolocraft:bobweapon",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "lolocraft:advance_5"
+}

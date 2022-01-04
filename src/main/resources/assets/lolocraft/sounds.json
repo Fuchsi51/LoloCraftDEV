@@ -1,0 +1,22 @@
+{
+  "dryhandsremix": {
+    "category": "neutral",
+    "subtitle": "subtitles.dryhandsremix",
+    "sounds": [
+      {
+        "name": "lolocraft:videoplayback-_3_",
+        "stream": false
+      }
+    ]
+  },
+  "rebenn-money-heist": {
+    "category": "music",
+    "subtitle": "subtitles.rebenn-money-heist",
+    "sounds": [
+      {
+        "name": "lolocraft:rebenn_-_money_heist_official_audio",
+        "stream": true
+      }
+    ]
+  }
+}

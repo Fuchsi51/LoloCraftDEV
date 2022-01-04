@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lolocraft:blocks/black_wood_log_top",
+    "up": "lolocraft:blocks/black_wood_log_top",
+    "north": "lolocraft:blocks/black_wood_log_side",
+    "east": "lolocraft:blocks/black_wood_log_side",
+    "south": "lolocraft:blocks/black_wood_log_side",
+    "west": "lolocraft:blocks/black_wood_log_side",
+    "particle": "lolocraft:blocks/black_wood_log_top"
+  }
+}

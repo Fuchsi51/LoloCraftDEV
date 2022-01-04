@@ -1,0 +1,36 @@
+{
+  "_fv": 24,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "a new ore",
+    "achievementDescription": "find the White Ingot",
+    "achievementIcon": {
+      "value": "CUSTOM:WhiteIngot"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "WhiteOreSmelting",
+      "WhiteArmorHelmetRecipe",
+      "WhiteArmorBodyRecipe",
+      "WhiteArmorLeggingsRecipe",
+      "WhiteArmorBootsRecipe",
+      "WhitePickaxeRecipe",
+      "WhiteAxeRecipe",
+      "WhiteSwordRecipe",
+      "WhiteShovelRecipe",
+      "WhiteHoeRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 10,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:Advanc1"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"71\" y=\"-34\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">100</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:WhiteIngot</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

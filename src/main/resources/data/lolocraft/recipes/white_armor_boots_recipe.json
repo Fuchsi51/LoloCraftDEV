@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "lolocraft:white_ingot"
+    },
+    "2": {
+      "item": "lolocraft:white_ingot"
+    },
+    "3": {
+      "item": "lolocraft:white_ingot"
+    },
+    "5": {
+      "item": "lolocraft:white_ingot"
+    }
+  },
+  "result": {
+    "item": "lolocraft:white_armor_boots",
+    "count": 1
+  }
+}

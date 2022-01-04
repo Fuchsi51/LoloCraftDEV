@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "lolocraft:black_lolo_ore"
+  },
+  "result": {
+    "item": "lolocraft:black_lolo_ingot"
+  }
+}

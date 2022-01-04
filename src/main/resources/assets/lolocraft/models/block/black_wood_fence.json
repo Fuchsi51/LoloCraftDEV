@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "lolocraft:blocks/black_wood_planks",
+    "particle": "lolocraft:blocks/black_wood_planks"
+  }
+}

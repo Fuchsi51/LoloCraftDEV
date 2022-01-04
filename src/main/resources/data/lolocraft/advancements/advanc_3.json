@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "lolocraft:white_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.advanc_3.title"
+    },
+    "description": {
+      "translate": "advancements.advanc_3.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advanc_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "lolocraft:white_pickaxe",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "lolocraft:advanc_2"
+}

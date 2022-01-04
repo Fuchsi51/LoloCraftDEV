@@ -1,0 +1,26 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "white_ingot",
+    "customModelName": "Normal",
+    "name": "Quartzbread",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:LoloCraftV3"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 4,
+    "saturation": 3.3,
+    "eatingSpeed": 52,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": true
+  }
+}

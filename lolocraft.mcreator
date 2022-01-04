@@ -1,0 +1,1043 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Whitedesert",
+      "type": "biome",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "whitedesert"
+    },
+    {
+      "name": "WhiteIngot",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_ingot"
+    },
+    {
+      "name": "WhiteOre",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_ore"
+    },
+    {
+      "name": "WhiteBlock",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_block"
+    },
+    {
+      "name": "WhiteOreSmelting",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_ore_smelting"
+    },
+    {
+      "name": "WhiteArmor",
+      "type": "armor",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "WhiteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_armor_helmet_recipe"
+    },
+    {
+      "name": "WhiteArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_armor_body_recipe"
+    },
+    {
+      "name": "WhiteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_armor_leggings_recipe"
+    },
+    {
+      "name": "WhiteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_armor_boots_recipe"
+    },
+    {
+      "name": "WhitePickaxe",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_pickaxe"
+    },
+    {
+      "name": "WhiteAxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_axe"
+    },
+    {
+      "name": "WhiteSword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_sword"
+    },
+    {
+      "name": "WhiteShovel",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_shovel"
+    },
+    {
+      "name": "WhiteHoe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_hoe"
+    },
+    {
+      "name": "WhitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_pickaxe_recipe"
+    },
+    {
+      "name": "WhiteAxeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_axe_recipe"
+    },
+    {
+      "name": "WhiteSwordRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_sword_recipe"
+    },
+    {
+      "name": "WhiteShovelRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_shovel_recipe"
+    },
+    {
+      "name": "WhiteHoeRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_hoe_recipe"
+    },
+    {
+      "name": "LoloCraftV3",
+      "type": "tab",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lolo_craft_v_3"
+    },
+    {
+      "name": "Quartzbread",
+      "type": "food",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quartzbread"
+    },
+    {
+      "name": "Mainmenu",
+      "type": "gui",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mainmenu"
+    },
+    {
+      "name": "Newvillage",
+      "type": "structure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "newvillage"
+    },
+    {
+      "name": "Advanc1",
+      "type": "achievement",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advanc_1"
+    },
+    {
+      "name": "Advanc2",
+      "type": "achievement",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advanc_2"
+    },
+    {
+      "name": "Advanc3",
+      "type": "achievement",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advanc_3"
+    },
+    {
+      "name": "Whitedimension",
+      "type": "dimension",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "whitedimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Advanc4",
+      "type": "achievement",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advanc_4"
+    },
+    {
+      "name": "Advance5",
+      "type": "achievement",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advance_5"
+    },
+    {
+      "name": "BobWennVomBlitzGetroffen",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bob_wenn_vom_blitz_getroffen",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BobWennEntitatScheitert",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bob_wenn_entitat_scheitert",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BobweaponWennGeschossAufBlockTrifft",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bobweapon_wenn_geschoss_auf_block_trifft",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BobweaponGeschossFliegtTick",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bobweapon_geschoss_fliegt_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bobweapon",
+      "type": "rangeditem",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bobweapon"
+    },
+    {
+      "name": "Bob",
+      "type": "livingentity",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bob"
+    },
+    {
+      "name": "Bobadvan1",
+      "type": "achievement",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bobadvan_1"
+    },
+    {
+      "name": "BobspawnblockWennDerSpielerZuZerstorenBeginnt",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bobspawnblock_wenn_der_spieler_zu_zerstoren_beginnt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BobspawnblockWennDerBlockVomSpielerZerstortWird",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bobspawnblock_wenn_der_block_vom_spieler_zerstort_wird",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bobspawnblock",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bobspawnblock"
+    },
+    {
+      "name": "Craftbobspawner",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "craftbobspawner"
+    },
+    {
+      "name": "Black_LoloIngot",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_lolo_ingot"
+    },
+    {
+      "name": "Black_LoloOre",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_lolo_ore"
+    },
+    {
+      "name": "Black_LoloBlock",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_lolo_block"
+    },
+    {
+      "name": "Black_LoloOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_lolo_ore_block_recipe"
+    },
+    {
+      "name": "Black_LoloBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_lolo_block_ore_recipe"
+    },
+    {
+      "name": "Black_LoloOreSmelting",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_lolo_ore_smelting"
+    },
+    {
+      "name": "Black_woodWood",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_wood_wood"
+    },
+    {
+      "name": "Black_woodLog",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_wood_log"
+    },
+    {
+      "name": "Black_woodPlanks",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_wood_planks"
+    },
+    {
+      "name": "Black_woodLeaves",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_wood_leaves"
+    },
+    {
+      "name": "Black_woodStairs",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_wood_stairs"
+    },
+    {
+      "name": "Black_woodSlab",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_wood_slab"
+    },
+    {
+      "name": "Black_woodFence",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_wood_fence"
+    },
+    {
+      "name": "Black_woodFenceGate",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_wood_fence_gate"
+    },
+    {
+      "name": "Black_woodPressurePlate",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_wood_pressure_plate"
+    },
+    {
+      "name": "Black_woodButton",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_wood_button"
+    },
+    {
+      "name": "Black_woodItemsTag",
+      "type": "tag",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_wood_items_tag"
+    },
+    {
+      "name": "Black_woodWoodRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_wood_wood_recipe"
+    },
+    {
+      "name": "Black_woodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_wood_planks_recipe"
+    },
+    {
+      "name": "Black_woodStairsRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_wood_stairs_recipe"
+    },
+    {
+      "name": "Black_woodSlabRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_wood_slab_recipe"
+    },
+    {
+      "name": "Black_woodFenceRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_wood_fence_recipe"
+    },
+    {
+      "name": "Black_woodFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_wood_fence_gate_recipe"
+    },
+    {
+      "name": "Black_woodPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_wood_pressure_plate_recipe"
+    },
+    {
+      "name": "Black_woodButtonRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_wood_button_recipe"
+    },
+    {
+      "name": "Black_woodStickRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_wood_stick_recipe"
+    },
+    {
+      "name": "Blacklolobiom",
+      "type": "biome",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blacklolobiom"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "dryhandsremix",
+      "files": [
+        "videoplayback-_3_"
+      ],
+      "category": "neutral",
+      "subtitle": "dryhandsremix"
+    },
+    {
+      "name": "rebenn-money-heist",
+      "files": [
+        "rebenn_-_money_heist_official_audio"
+      ],
+      "category": "music",
+      "subtitle": "Rebenn Money Heist"
+    }
+  ],
+  "language_map": {
+    "de_at": {
+      "item.lolocraft.white_pickaxe": "White Pickaxe",
+      "item.lolocraft.bob_spawn_egg": "Bob Spawn Egg",
+      "item.lolocraft3.bobweapon": "Bob Zauberstab",
+      "entity.lolocraft.bob": "Bob",
+      "subtitles.dryhandsremix": "dryhandsremix",
+      "block.lolocraft3.black_wood_fence_gate": "Black_wood Fence Gate",
+      "entity.lolocraft3.bob": "Bob",
+      "block.lolocraft.black_wood_fence_gate": "Black Wood Fence Gate",
+      "item.lolocraft3.whitedimension": "Weiﬂe Welt Aktivirer",
+      "item.lolocraft3.white_hoe": "Weiﬂe Hoe",
+      "item.lolocraft.white_shovel": "White Shovel",
+      "block.lolocraft3.white_ore": "Weiﬂes Erz",
+      "item.lolocraft.white_armor_helmet": "White Helmet",
+      "advancements.advanc_1.title": "Ein neues Abenteuer",
+      "block.lolocraft.black_wood_pressure_plate": "Black Wood Pressure Plate",
+      "advancements.advanc_2.descr": "Finde ein Weiﬂ Ingot",
+      "block.lolocraft.white_block": "Block of White",
+      "block.lolocraft3.black_wood_button": "Black_wood Button",
+      "advancements.advanc_4.title": "Eine neue Welt",
+      "item.lolocraft3.white_armor_chestplate": "Weiﬂe  Brustplate",
+      "item.lolocraft.white_hoe": "White Hoe",
+      "block.lolocraft3.black_lolo_ore": "Black_Lolo Ore",
+      "item.lolocraft.bobweapon": "Bob Magic wand",
+      "advancements.advance_5.descr": "Spiele Minecraft mit der LoloCraft Mod durch",
+      "item.lolocraft3.white_shovel": "Weiﬂe Schaufel",
+      "block.lolocraft.white_ore": "White Ore",
+      "item.lolocraft.whitedimension": "White dimension Portal Igniter",
+      "item.lolocraft.quartzbread": "Quartzbread",
+      "item.lolocraft.white_axe": "White Axe",
+      "advancements.advanc_2.title": "Ein neues Erz",
+      "block.lolocraft.black_lolo_ore": "Black Lolo Ore",
+      "advancements.advanc_3.descr": "Crafte eine Weiﬂe Spitzhacke",
+      "biome.lolocraft.blacklolobiom": "Black Lolo Biom",
+      "item.lolocraft3.bob_spawn_egg": "Bob Spawn Egg",
+      "item.lolocraft.white_sword": "White Sword",
+      "item.lolocraft3.white_pickaxe": "Weiﬂe Pickaxt",
+      "item.lolocraft3.quartzbread": "Quartzbrot",
+      "block.lolocraft3.black_wood_pressure_plate": "Black_wood Pressure Plate",
+      "itemGroup.tablolo_craft_v_3": "LoloCraft V3",
+      "block.lolocraft3.white_block": "Weiﬂ Block",
+      "item.lolocraft.white_armor_boots": "White Boots",
+      "item.lolocraft3.white_axe": "Weiﬂe Axt",
+      "item.lolocraft.white_armor_leggings": "White Leggings",
+      "block.lolocraft3.bobspawnblock": "Bob spawnblock",
+      "block.lolocraft.black_wood_log": "Black wood Log",
+      "advancements.advanc_3.title": "Ein neues Werkzeug",
+      "block.lolocraft.bobspawnblock": "Bob spawnblock",
+      "biome.lolocraft3.whitedesert": "Weiﬂe W¸ste",
+      "advancements.bobadvan_1.title": "Bob ",
+      "block.lolocraft3.black_wood_log": "Black_wood Log",
+      "block.lolocraft3.black_wood_planks": "Black_wood Planks",
+      "advancements.bobadvan_1.descr": "Das ist Big Bob",
+      "block.lolocraft.black_wood_wood": "Black_wood Wood",
+      "block.lolocraft3.black_wood_slab": "Black_wood Slab",
+      "item.lolocraft3.white_sword": "Weiﬂes Schwert",
+      "item.lolocraft3.white_armor_helmet": "Weiﬂer Helm",
+      "item.lolocraft3.white_armor_boots": "Weiﬂe Schuhe",
+      "item.lolocraft.black_lolo_ingot": "Black Lolo Ingot",
+      "block.lolocraft.black_wood_slab": "Black Wood Slab",
+      "block.lolocraft.black_lolo_block": "Block of Black Lolo",
+      "block.lolocraft3.black_wood_leaves": "Black_wood Leaves",
+      "subtitles.rebenn-money-heist": "",
+      "advancements.advanc_4.descr": "Gehe zur Weiﬂen Welt",
+      "block.lolocraft3.black_wood_wood": "Black_wood Wood",
+      "block.lolocraft3.black_wood_stairs": "Black_wood Stairs",
+      "block.lolocraft3.black_lolo_block": "Block of Black_Lolo",
+      "item.lolocraft3.black_lolo_ingot": "Black_Lolo",
+      "item.lolocraft3.white_armor_leggings": "Weiﬂe Hose",
+      "block.lolocraft3.black_wood_fence": "Black_wood Fence",
+      "block.lolocraft.black_wood_planks": "Black wood Planks",
+      "item.lolocraft3.white_ingot": "Weiﬂes Ingot",
+      "advancements.advanc_1.descr": "Finde eine Weiﬂe W¸ste ",
+      "subtitles.trollolollolo": "",
+      "block.lolocraft.black_wood_fence": "Black Wood Fence",
+      "block.lolocraft.black_wood_leaves": "Black Wood Leaves",
+      "advancements.advance_5.title": "Beat the Train Cj! ƒmmm Beat the Game",
+      "biome.lolocraft3.blacklolobiom": "Black Lolo Biom",
+      "biome.lolocraft.whitedesert": "White desert",
+      "block.lolocraft.black_wood_stairs": "Black Wood Stairs",
+      "item.lolocraft.white_armor_chestplate": "White Chestplate",
+      "item.lolocraft.white_ingot": "White",
+      "block.lolocraft.black_wood_button": "Black Wood Button"
+    },
+    "en_us": {
+      "item.lolocraft.white_pickaxe": "White Pickaxe",
+      "item.lolocraft.bob_spawn_egg": "Bob Spawn Egg",
+      "item.lolocraft3.bobweapon": "Bob Magic wand",
+      "entity.lolocraft.bob": "Bob",
+      "subtitles.dryhandsremix": "dryhandsremix",
+      "block.lolocraft3.black_wood_fence_gate": "Black Wood Fence Gate",
+      "entity.lolocraft3.bob": "Bob",
+      "block.lolocraft.black_wood_fence_gate": "Black Wood Fence Gate",
+      "item.lolocraft3.whitedimension": "White dimension Portal Igniter",
+      "item.lolocraft3.white_hoe": "White Hoe",
+      "item.lolocraft.white_shovel": "White Shovel",
+      "block.lolocraft3.white_ore": "White Ore",
+      "item.lolocraft.white_armor_helmet": "White Helmet",
+      "advancements.advanc_1.title": "A New Advanture",
+      "block.lolocraft.black_wood_pressure_plate": "Black Wood Pressure Plate",
+      "advancements.advanc_2.descr": "find the White Ingot",
+      "block.lolocraft.white_block": "Block of White",
+      "block.lolocraft3.black_wood_button": "Black Wood Button",
+      "advancements.advanc_4.title": "a new dimension",
+      "item.lolocraft3.white_armor_chestplate": "White Chestplate",
+      "item.lolocraft.white_hoe": "White Hoe",
+      "block.lolocraft3.black_lolo_ore": "Black Lolo Ore",
+      "item.lolocraft.bobweapon": "Bob Magic wand",
+      "advancements.advance_5.descr": "Beat the Game with the LoloCraft Mod",
+      "item.lolocraft3.white_shovel": "White Shovel",
+      "block.lolocraft.white_ore": "White Ore",
+      "item.lolocraft.whitedimension": "White dimension Portal Igniter",
+      "item.lolocraft.quartzbread": "Quartzbread",
+      "item.lolocraft.white_axe": "White Axe",
+      "advancements.advanc_2.title": "a new ore",
+      "block.lolocraft.black_lolo_ore": "Black Lolo Ore",
+      "advancements.advanc_3.descr": "craft a white pickaxe",
+      "biome.lolocraft.blacklolobiom": "Black Lolo Biom",
+      "item.lolocraft3.bob_spawn_egg": "Bob Spawn Egg",
+      "item.lolocraft.white_sword": "White Sword",
+      "item.lolocraft3.white_pickaxe": "White Pickaxe",
+      "item.lolocraft3.quartzbread": "Quartzbread",
+      "block.lolocraft3.black_wood_pressure_plate": "Black Wood Pressure Plate",
+      "itemGroup.tablolo_craft_v_3": "Lolo Craft V 3",
+      "block.lolocraft3.white_block": "Block of White",
+      "item.lolocraft.white_armor_boots": "White Boots",
+      "item.lolocraft3.white_axe": "White Axe",
+      "item.lolocraft.white_armor_leggings": "White Leggings",
+      "block.lolocraft3.bobspawnblock": "Bob spawnblock",
+      "block.lolocraft.black_wood_log": "Black wood Log",
+      "advancements.advanc_3.title": "a new tool",
+      "block.lolocraft.bobspawnblock": "Bob spawnblock",
+      "biome.lolocraft3.whitedesert": "White desert",
+      "advancements.bobadvan_1.title": "Bob ",
+      "block.lolocraft3.black_wood_log": "Black wood Log",
+      "block.lolocraft3.black_wood_planks": "Black wood Planks",
+      "advancements.bobadvan_1.descr": "This is Big Bob",
+      "block.lolocraft.black_wood_wood": "Black_wood Wood",
+      "block.lolocraft3.black_wood_slab": "Black Wood Slab",
+      "item.lolocraft3.white_sword": "White Sword",
+      "item.lolocraft3.white_armor_helmet": "White Helmet",
+      "item.lolocraft3.white_armor_boots": "White Boots",
+      "item.lolocraft.black_lolo_ingot": "Black Lolo Ingot",
+      "block.lolocraft.black_wood_slab": "Black Wood Slab",
+      "block.lolocraft.black_lolo_block": "Block of Black Lolo",
+      "block.lolocraft3.black_wood_leaves": "Black Wood Leaves",
+      "subtitles.rebenn-money-heist": "Rebenn Money Heist",
+      "advancements.advanc_4.descr": "go to the white dimension",
+      "block.lolocraft3.black_wood_wood": "Black_wood Wood",
+      "block.lolocraft3.black_wood_stairs": "Black Wood Stairs",
+      "block.lolocraft3.black_lolo_block": "Block of Black Lolo",
+      "item.lolocraft3.black_lolo_ingot": "Black Lolo Ingot",
+      "item.lolocraft3.white_armor_leggings": "White Leggings",
+      "block.lolocraft3.black_wood_fence": "Black Wood Fence",
+      "block.lolocraft.black_wood_planks": "Black wood Planks",
+      "item.lolocraft3.white_ingot": "White",
+      "advancements.advanc_1.descr": "find a White Deserd ",
+      "subtitles.trollolollolo": "",
+      "block.lolocraft.black_wood_fence": "Black Wood Fence",
+      "block.lolocraft.black_wood_leaves": "Black Wood Leaves",
+      "advancements.advance_5.title": "Beat the Train ummm no Beat the Game!",
+      "biome.lolocraft3.blacklolobiom": "Black Lolo Biom",
+      "biome.lolocraft.whitedesert": "White desert",
+      "block.lolocraft.black_wood_stairs": "Black Wood Stairs",
+      "item.lolocraft.white_armor_chestplate": "White Chestplate",
+      "item.lolocraft.white_ingot": "White",
+      "block.lolocraft.black_wood_button": "Black Wood Button"
+    },
+    "de_de": {
+      "item.lolocraft.white_pickaxe": "White Pickaxe",
+      "item.lolocraft.bob_spawn_egg": "Bob Spawn Egg",
+      "item.lolocraft3.bobweapon": "Bob Zauberstab",
+      "entity.lolocraft.bob": "Bob",
+      "subtitles.dryhandsremix": "dryhandsremix",
+      "block.lolocraft3.black_wood_fence_gate": "Black_wood Fence Gate",
+      "entity.lolocraft3.bob": "Bob",
+      "block.lolocraft.black_wood_fence_gate": "Black Wood Fence Gate",
+      "item.lolocraft3.whitedimension": "Weiﬂe Welt Aktivirer",
+      "item.lolocraft3.white_hoe": "Weiﬂe Hoe",
+      "item.lolocraft.white_shovel": "White Shovel",
+      "block.lolocraft3.white_ore": "Weiﬂes Erz",
+      "item.lolocraft.white_armor_helmet": "White Helmet",
+      "advancements.advanc_1.title": "Ein neues Abenteuer",
+      "block.lolocraft.black_wood_pressure_plate": "Black Wood Pressure Plate",
+      "advancements.advanc_2.descr": "Finde ein Weiﬂ Ingot",
+      "block.lolocraft.white_block": "Block of White",
+      "block.lolocraft3.black_wood_button": "Black_wood Button",
+      "advancements.advanc_4.title": "Eine neue Welt",
+      "item.lolocraft3.white_armor_chestplate": "Weiﬂe  Brustplate",
+      "item.lolocraft.white_hoe": "White Hoe",
+      "block.lolocraft3.black_lolo_ore": "Black_Lolo Ore",
+      "item.lolocraft.bobweapon": "Bob Magic wand",
+      "advancements.advance_5.descr": "Spiele Minecraft mit der LoloCraft Mod durch",
+      "item.lolocraft3.white_shovel": "Weiﬂe Schaufel",
+      "block.lolocraft.white_ore": "White Ore",
+      "item.lolocraft.whitedimension": "White dimension Portal Igniter",
+      "item.lolocraft.quartzbread": "Quartzbread",
+      "item.lolocraft.white_axe": "White Axe",
+      "advancements.advanc_2.title": "Ein neues Erz",
+      "block.lolocraft.black_lolo_ore": "Black Lolo Ore",
+      "advancements.advanc_3.descr": "Crafte eine Weiﬂe Spitzhacke",
+      "biome.lolocraft.blacklolobiom": "Black Lolo Biom",
+      "item.lolocraft3.bob_spawn_egg": "Bob Spawn Egg",
+      "item.lolocraft.white_sword": "White Sword",
+      "item.lolocraft3.white_pickaxe": "Weiﬂe Pickaxt",
+      "item.lolocraft3.quartzbread": "Quartzbrot",
+      "block.lolocraft3.black_wood_pressure_plate": "Black_wood Pressure Plate",
+      "itemGroup.tablolo_craft_v_3": "LoloCraft V3",
+      "block.lolocraft3.white_block": "Weiﬂ Block",
+      "item.lolocraft.white_armor_boots": "White Boots",
+      "item.lolocraft3.white_axe": "Weiﬂe Axt",
+      "item.lolocraft.white_armor_leggings": "White Leggings",
+      "block.lolocraft3.bobspawnblock": "Bob spawnblock",
+      "block.lolocraft.black_wood_log": "Black wood Log",
+      "advancements.advanc_3.title": "Ein neues Werkzeug",
+      "block.lolocraft.bobspawnblock": "Bob spawnblock",
+      "biome.lolocraft3.whitedesert": "Weiﬂe W¸ste",
+      "advancements.bobadvan_1.title": "Bob ",
+      "block.lolocraft3.black_wood_log": "Black_wood Log",
+      "block.lolocraft3.black_wood_planks": "Black_wood Planks",
+      "advancements.bobadvan_1.descr": "Das ist Big Bob",
+      "block.lolocraft.black_wood_wood": "Black_wood Wood",
+      "block.lolocraft3.black_wood_slab": "Black_wood Slab",
+      "item.lolocraft3.white_sword": "Weiﬂes Schwert",
+      "item.lolocraft3.white_armor_helmet": "Weiﬂer Helm",
+      "item.lolocraft3.white_armor_boots": "Weiﬂe Schuhe",
+      "item.lolocraft.black_lolo_ingot": "Black Lolo Ingot",
+      "block.lolocraft.black_wood_slab": "Black Wood Slab",
+      "block.lolocraft.black_lolo_block": "Block of Black Lolo",
+      "block.lolocraft3.black_wood_leaves": "Black_wood Leaves",
+      "subtitles.rebenn-money-heist": "",
+      "advancements.advanc_4.descr": "Gehe zur Weiﬂen Welt",
+      "block.lolocraft3.black_wood_wood": "Black_wood Wood",
+      "block.lolocraft3.black_wood_stairs": "Black_wood Stairs",
+      "block.lolocraft3.black_lolo_block": "Block of Black_Lolo",
+      "item.lolocraft3.black_lolo_ingot": "Black_Lolo",
+      "item.lolocraft3.white_armor_leggings": "Weiﬂe Hose",
+      "block.lolocraft3.black_wood_fence": "Black_wood Fence",
+      "block.lolocraft.black_wood_planks": "Black wood Planks",
+      "item.lolocraft3.white_ingot": "Weiﬂes Ingot",
+      "advancements.advanc_1.descr": "Finde eine Weiﬂe W¸ste ",
+      "subtitles.trollolollolo": "",
+      "block.lolocraft.black_wood_fence": "Black Wood Fence",
+      "block.lolocraft.black_wood_leaves": "Black Wood Leaves",
+      "advancements.advance_5.title": "Beat the Train Cj! ƒmmm Beat the Game",
+      "biome.lolocraft3.blacklolobiom": "Black Lolo Biom",
+      "biome.lolocraft.whitedesert": "White desert",
+      "block.lolocraft.black_wood_stairs": "Black Wood Stairs",
+      "item.lolocraft.white_armor_chestplate": "White Chestplate",
+      "item.lolocraft.white_ingot": "White",
+      "block.lolocraft.black_wood_button": "Black Wood Button"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "lolocraft",
+    "modName": "LoloCraftVIII",
+    "version": "1.2.0",
+    "description": "The LoloCraft Mod Remake for Minecraft 1.16.5",
+    "author": "DerLoloHD aka Fuchsiii",
+    "websiteURL": "https://mclolocraft.jimdosite.com",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "The LoloCraftV3 Mod for Minecraft 1.16.5",
+    "modElementsPackage": "net.foxmods.lolocraftviii",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100352418
+}

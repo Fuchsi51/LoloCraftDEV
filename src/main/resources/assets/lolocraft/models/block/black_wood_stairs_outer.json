@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "lolocraft:blocks/black_wood_planks",
+    "top": "lolocraft:blocks/black_wood_planks",
+    "side": "lolocraft:blocks/black_wood_planks"
+  }
+}

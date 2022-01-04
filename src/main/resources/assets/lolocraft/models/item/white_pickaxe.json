@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "lolocraft:items/white_pickaxe"
+  }
+}

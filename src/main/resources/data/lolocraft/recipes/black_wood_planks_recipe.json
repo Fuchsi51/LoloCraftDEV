@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:black_wood_log"
+    }
+  ],
+  "result": {
+    "item": "lolocraft:black_wood_planks",
+    "count": 4
+  }
+}

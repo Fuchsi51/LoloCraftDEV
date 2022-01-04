@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "item": "lolocraft:white_ingot"
+    },
+    "title": {
+      "translate": "advancements.advanc_2.title"
+    },
+    "description": {
+      "translate": "advancements.advanc_2.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advanc_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "lolocraft:white_ingot",
+            "count": {
+              "min": 1,
+              "max": 100
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "recipes": [
+      "lolocraft:white_ore_smelting",
+      "lolocraft:white_armor_helmet_recipe",
+      "lolocraft:white_armor_body_recipe",
+      "lolocraft:white_armor_leggings_recipe",
+      "lolocraft:white_armor_boots_recipe",
+      "lolocraft:white_pickaxe_recipe",
+      "lolocraft:white_axe_recipe",
+      "lolocraft:white_sword_recipe",
+      "lolocraft:white_shovel_recipe",
+      "lolocraft:white_hoe_recipe"
+    ]
+  },
+  "parent": "lolocraft:advanc_1"
+}

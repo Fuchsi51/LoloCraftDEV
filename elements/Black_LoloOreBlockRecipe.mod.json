@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Black_LoloIngot"
+      },
+      {
+        "value": "CUSTOM:Black_LoloIngot"
+      },
+      {
+        "value": "CUSTOM:Black_LoloIngot"
+      },
+      {
+        "value": "CUSTOM:Black_LoloIngot"
+      },
+      {
+        "value": "CUSTOM:Black_LoloIngot"
+      },
+      {
+        "value": "CUSTOM:Black_LoloIngot"
+      },
+      {
+        "value": "CUSTOM:Black_LoloIngot"
+      },
+      {
+        "value": "CUSTOM:Black_LoloIngot"
+      },
+      {
+        "value": "CUSTOM:Black_LoloIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Black_LoloBlock"
+    },
+    "name": "black_lolo_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

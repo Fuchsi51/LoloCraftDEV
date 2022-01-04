@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lolocraft:black_lolo_block"
+    }
+  ],
+  "result": {
+    "item": "lolocraft:black_lolo_ingot",
+    "count": 9
+  }
+}

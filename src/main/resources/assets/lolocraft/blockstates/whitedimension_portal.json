@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "lolocraft:block/whitedimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "lolocraft:block/whitedimension_portal_ns"
+    }
+  }
+}
