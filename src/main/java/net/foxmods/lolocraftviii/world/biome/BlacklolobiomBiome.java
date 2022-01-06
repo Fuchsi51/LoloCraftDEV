@@ -8,15 +8,13 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.BiomeManager;
 
-import net.minecraft.world.gen.trunkplacer.MegaJungleTrunkPlacer;
-import net.minecraft.world.gen.treedecorator.TrunkVineTreeDecorator;
-import net.minecraft.world.gen.treedecorator.LeaveVineTreeDecorator;
+import net.minecraft.world.gen.trunkplacer.GiantTrunkPlacer;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
 import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.NoiseDependant;
 import net.minecraft.world.gen.placement.AtSurfaceWithExtraConfig;
-import net.minecraft.world.gen.foliageplacer.JungleFoliagePlacer;
+import net.minecraft.world.gen.foliageplacer.MegaPineFoliagePlacer;
 import net.minecraft.world.gen.feature.structure.StructureFeatures;
 import net.minecraft.world.gen.feature.TwoLayerFeature;
 import net.minecraft.world.gen.feature.SphereReplaceConfig;
@@ -72,13 +70,11 @@ public class BlacklolobiomBiome extends LolocraftModElements.ModElement {
 				biomeGenerationSettings.withStructure(StructureFeatures.VILLAGE_TAIGA);
 				biomeGenerationSettings.withStructure(StructureFeatures.RUINED_PORTAL);
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.TREE
-						.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.JUNGLE_LOG.getDefaultState()),
-								new SimpleBlockStateProvider(Blocks.JUNGLE_LEAVES.getDefaultState()),
-								new JungleFoliagePlacer(FeatureSpread.func_242252_a(2), FeatureSpread.func_242252_a(0), 2),
-								new MegaJungleTrunkPlacer(10, 2, 19), new TwoLayerFeature(1, 1, 2)))
-										.setDecorators(
-												ImmutableList.of(TrunkVineTreeDecorator.field_236879_b_, LeaveVineTreeDecorator.field_236871_b_))
-										.build())
+						.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.SPRUCE_LOG.getDefaultState()),
+								new SimpleBlockStateProvider(Blocks.SPRUCE_LEAVES.getDefaultState()),
+								new MegaPineFoliagePlacer(FeatureSpread.func_242252_a(0), FeatureSpread.func_242252_a(0),
+										FeatureSpread.func_242253_a(3, 4)),
+								new GiantTrunkPlacer(13, 2, 14), new TwoLayerFeature(1, 1, 2))).build())
 						.withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT)
 						.withPlacement(Placement.COUNT_EXTRA.configure(new AtSurfaceWithExtraConfig(10, 0.1F, 1))));
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
@@ -107,7 +103,7 @@ public class BlacklolobiomBiome extends LolocraftModElements.ModElement {
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
 				mobSpawnInfo.withSpawner(EntityClassification.AMBIENT, new MobSpawnInfo.Spawners(EntityType.COW, 2, 1, 2));
 				mobSpawnInfo.withSpawner(EntityClassification.AMBIENT, new MobSpawnInfo.Spawners(EntityType.FOX, 1, 1, 1));
-				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.NONE).depth(2.4f).scale(0.2f).temperature(0.5f)
+				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.NONE).depth(1f).scale(0.2f).temperature(0.5f)
 						.downfall(0.5f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();
 				event.getRegistry().register(biome.setRegistryName("lolocraft:blacklolobiom"));

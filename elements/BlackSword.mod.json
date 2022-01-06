@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "black_sword",
+    "customModelName": "Normal",
+    "name": "Black Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:LoloCraftV3"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 12.0,
+    "attackSpeed": 2.0,
+    "enchantability": 23,
+    "damageVsEntity": 14.0,
+    "usageCount": 193,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Black_LoloIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

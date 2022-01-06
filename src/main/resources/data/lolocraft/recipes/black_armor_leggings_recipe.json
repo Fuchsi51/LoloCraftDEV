@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "lolocraft:black_lolo_ingot"
+    },
+    "1": {
+      "item": "lolocraft:black_lolo_ingot"
+    },
+    "2": {
+      "item": "lolocraft:black_lolo_ingot"
+    },
+    "3": {
+      "item": "lolocraft:black_lolo_ingot"
+    },
+    "5": {
+      "item": "lolocraft:black_lolo_ingot"
+    },
+    "6": {
+      "item": "lolocraft:black_lolo_ingot"
+    },
+    "8": {
+      "item": "lolocraft:black_lolo_ingot"
+    }
+  },
+  "result": {
+    "item": "lolocraft:black_armor_leggings",
+    "count": 1
+  }
+}

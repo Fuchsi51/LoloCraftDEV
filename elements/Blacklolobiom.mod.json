@@ -41,7 +41,7 @@
     },
     "rainingPossibility": 0.5,
     "temperature": 0.5,
-    "baseHeight": 2.4,
+    "baseHeight": 1.0,
     "heightVariation": 0.2,
     "biomeType": "WARM",
     "spawnBiome": true,
@@ -57,7 +57,7 @@
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
     "treesPerChunk": 10,
-    "vanillaTreeType": "Big trees",
+    "vanillaTreeType": "Mega pine trees",
     "treeType": 0,
     "minHeight": 7,
     "treeStem": {
