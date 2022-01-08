@@ -46,10 +46,6 @@ public class LolocraftModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 
 	public LolocraftModElements() {
-		sounds.put(new ResourceLocation("lolocraft", "dryhandsremix"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("lolocraft", "dryhandsremix")));
-		sounds.put(new ResourceLocation("lolocraft", "rebenn-money-heist"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("lolocraft", "rebenn-money-heist")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("lolocraft").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

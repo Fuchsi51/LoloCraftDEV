@@ -2,10 +2,13 @@
 package net.foxmods.lolocraftviii.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.util.ForgeSoundType;
 
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.SoundEvent;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -13,7 +16,6 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -47,7 +49,12 @@ public class BobspawnblockBlock extends LolocraftModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.ROCK)
+					.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("entity.ender_pearl.throw")),
+							() -> new SoundEvent(new ResourceLocation("")), () -> new SoundEvent(new ResourceLocation("entity.ender_eye.launch")),
+							() -> new SoundEvent(new ResourceLocation("entity.ender_eye.death")),
+							() -> new SoundEvent(new ResourceLocation("ambient.cave"))))
+					.hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 			setRegistryName("bobspawnblock");
 		}
 

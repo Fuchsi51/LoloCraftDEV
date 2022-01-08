@@ -19,6 +19,7 @@ import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.NoiseDependant;
 import net.minecraft.world.gen.placement.AtSurfaceWithExtraConfig;
 import net.minecraft.world.gen.foliageplacer.BlobFoliagePlacer;
+import net.minecraft.world.gen.feature.structure.StructureFeatures;
 import net.minecraft.world.gen.feature.TwoLayerFeature;
 import net.minecraft.world.gen.feature.Features;
 import net.minecraft.world.gen.feature.FeatureSpread;
@@ -43,6 +44,7 @@ import net.minecraft.state.BooleanProperty;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
+import net.foxmods.lolocraftviii.block.WhitedirtBlock;
 import net.foxmods.lolocraftviii.LolocraftModElements;
 
 import java.util.Set;
@@ -67,8 +69,9 @@ public class WhitedesertBiome extends LolocraftModElements.ModElement {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-1).setWaterColor(-1).setWaterFogColor(329011).withSkyColor(-1)
 						.withFoliageColor(10387789).withGrassColor(9470285).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
-						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.QUARTZ_BLOCK.getDefaultState(),
-								Blocks.QUARTZ_BLOCK.getDefaultState(), Blocks.QUARTZ_BLOCK.getDefaultState())));
+						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(WhitedirtBlock.block.getDefaultState(),
+								Blocks.DIRT.getDefaultState(), Blocks.DIRT.getDefaultState())));
+				biomeGenerationSettings.withStructure(StructureFeatures.VILLAGE_PLAINS);
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.TREE
 						.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(Blocks.BIRCH_LOG.getDefaultState()),
 								new SimpleBlockStateProvider(Blocks.COBWEB.getDefaultState()),
@@ -101,7 +104,7 @@ public class WhitedesertBiome extends LolocraftModElements.ModElement {
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		BiomeManager.addBiome(BiomeManager.BiomeType.WARM,
-				new BiomeManager.BiomeEntry(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), 30));
+				new BiomeManager.BiomeEntry(RegistryKey.getOrCreateKey(Registry.BIOME_KEY, WorldGenRegistries.BIOME.getKey(biome)), 10));
 	}
 
 	private static class CustomLeaveVineTreeDecorator extends LeaveVineTreeDecorator {

@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "lolocraft:blocks/portalblock",
-    "up": "lolocraft:blocks/ammo",
-    "north": "lolocraft:blocks/bob",
-    "east": "lolocraft:blocks/bob",
-    "south": "lolocraft:blocks/bob",
-    "west": "lolocraft:blocks/bob",
-    "particle": "lolocraft:blocks/portalblock"
+    "down": "lolocraft:blocks/boden",
+    "up": "lolocraft:blocks/decke",
+    "north": "lolocraft:blocks/blockspawnertexture",
+    "east": "lolocraft:blocks/blockspawnertexture",
+    "south": "lolocraft:blocks/blockspawnertexture",
+    "west": "lolocraft:blocks/blockspawnertexture",
+    "particle": "lolocraft:blocks/boden"
   }
 }

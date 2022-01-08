@@ -38,17 +38,17 @@ public class BlackArmorItem extends LolocraftModElements.ModElement {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 20;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 255;
 			}
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{5, 5, 5, 5}[slot.getIndex()];
+				return new int[]{14, 14, 14, 14}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantability() {
-				return 9;
+				return 25;
 			}
 
 			@Override
@@ -69,7 +69,7 @@ public class BlackArmorItem extends LolocraftModElements.ModElement {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 3f;
 			}
 
 			@Override

@@ -798,27 +798,18 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_armor_boots_recipe"
+    },
+    {
+      "name": "Whitedirt",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whitedirt"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [
-    {
-      "name": "dryhandsremix",
-      "files": [
-        "videoplayback-_3_"
-      ],
-      "category": "neutral",
-      "subtitle": "dryhandsremix"
-    },
-    {
-      "name": "rebenn-money-heist",
-      "files": [
-        "rebenn_-_money_heist_official_audio"
-      ],
-      "category": "music",
-      "subtitle": "Rebenn Money Heist"
-    }
-  ],
+  "sound_elements": [],
   "language_map": {
     "en_us": {
       "item.lolocraft.white_pickaxe": "Bright Pickaxe",
@@ -876,6 +867,7 @@
       "biome.lolocraft3.whitedesert": "White desert",
       "advancements.bobadvan_1.title": "Bob ",
       "block.lolocraft3.black_wood_log": "Black wood Log",
+      "block.lolocraft.whitedirt": "Whitedirt",
       "block.lolocraft3.black_wood_planks": "Black wood Planks",
       "advancements.bobadvan_1.descr": "This is Big Bob",
       "block.lolocraft.black_wood_wood": "Black_wood Wood",
@@ -969,6 +961,7 @@
       "biome.lolocraft3.whitedesert": "Weiße Wüste",
       "advancements.bobadvan_1.title": "Bob ",
       "block.lolocraft3.black_wood_log": "Black_wood Log",
+      "block.lolocraft.whitedirt": "Whitedirt",
       "block.lolocraft3.black_wood_planks": "Black_wood Planks",
       "advancements.bobadvan_1.descr": "Das ist Big Bob",
       "block.lolocraft.black_wood_wood": "Black_wood Wood",

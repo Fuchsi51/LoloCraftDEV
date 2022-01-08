@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "portalblock",
-    "textureTop": "ammo",
-    "textureLeft": "bob",
-    "textureFront": "bob",
-    "textureRight": "bob",
-    "textureBack": "bob",
+    "texture": "boden",
+    "textureTop": "decke",
+    "textureLeft": "blockspawnertexture",
+    "textureFront": "blockspawnertexture",
+    "textureRight": "blockspawnertexture",
+    "textureBack": "blockspawnertexture",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -75,24 +75,24 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": false,
+    "isCustomSoundType": true,
     "soundOnStep": {
       "value": "GROUND"
     },
     "breakSound": {
-      "value": ""
+      "value": "entity.enderpearl.throw"
     },
     "stepSound": {
-      "value": ""
+      "value": "block.dripstone_block.break"
     },
     "placeSound": {
-      "value": ""
+      "value": "entity.endereye.launch"
     },
     "hitSound": {
-      "value": ""
+      "value": "entity.endereye.death"
     },
     "fallSound": {
-      "value": ""
+      "value": "ambient.cave"
     },
     "luminance": 0,
     "unbreakable": false,

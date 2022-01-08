@@ -10,6 +10,7 @@ import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.entity.merchant.villager.VillagerEntity;
+import net.minecraft.entity.item.ExperienceOrbEntity;
 import net.minecraft.entity.SpawnReason;
 import net.minecraft.entity.MobEntity;
 import net.minecraft.entity.ILivingEntityData;
@@ -49,12 +50,15 @@ public class BobWennEntitatScheitertProcedure {
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		if (world instanceof World && !world.isRemote()) {
 			((World) world).playSound(null, new BlockPos((int) x, (int) y, (int) z),
-					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.villager.celebrate")),
+					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("lolocraft:dryhandsremix")),
 					SoundCategory.NEUTRAL, (float) 1, (float) 1);
 		} else {
 			((World) world).playSound(x, y, z,
-					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.villager.celebrate")),
+					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("lolocraft:dryhandsremix")),
 					SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
+		}
+		if (world instanceof World && !world.isRemote()) {
+			((World) world).addEntity(new ExperienceOrbEntity(((World) world), x, y, z, (int) 1000));
 		}
 		if (world instanceof ServerWorld) {
 			Entity entityToSpawn = new VillagerEntity(EntityType.VILLAGER, (World) world);

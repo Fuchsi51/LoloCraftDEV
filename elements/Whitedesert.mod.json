@@ -4,10 +4,10 @@
   "definition": {
     "name": "White desert",
     "groundBlock": {
-      "value": "Blocks.QUARTZ_BLOCK#3"
+      "value": "CUSTOM:Whitedirt"
     },
     "undergroundBlock": {
-      "value": "Blocks.QUARTZ_BLOCK#3"
+      "value": "Blocks.DIRT#0"
     },
     "airColor": {
       "value": -1,
@@ -45,7 +45,7 @@
     "heightVariation": 0.2,
     "biomeType": "WARM",
     "spawnBiome": true,
-    "biomeWeight": 30,
+    "biomeWeight": 10,
     "biomeDictionaryTypes": [],
     "grassPerChunk": 4,
     "seagrassPerChunk": 0,
@@ -76,7 +76,7 @@
     "spawnMineshaft": false,
     "spawnMineshaftMesa": false,
     "spawnPillagerOutpost": false,
-    "villageType": "none",
+    "villageType": "plains",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
     "spawnDesertPyramid": false,

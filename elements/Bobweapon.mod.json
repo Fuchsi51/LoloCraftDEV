@@ -17,19 +17,19 @@
       "value": "Items.ARROW"
     },
     "shootConstantly": false,
-    "usageCount": 50,
+    "usageCount": 250,
     "actionSound": {
       "value": "entity.arrow.shoot"
     },
     "hasGlow": true,
     "animation": "bow",
-    "enableMeleeDamage": false,
-    "damageVsEntity": 1.0,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 30.0,
     "bulletPower": 1.0,
-    "bulletDamage": 1.0,
-    "bulletKnockback": 6,
+    "bulletDamage": 4.0,
+    "bulletKnockback": 20,
     "bulletParticles": true,
-    "bulletIgnitesFire": false,
+    "bulletIgnitesFire": true,
     "bulletItemTexture": {
       "value": "Items.ARROW"
     },
@@ -40,9 +40,6 @@
     },
     "onBulletHitsEntity": {
       "name": "BobweaponWennGeschossAufBlockTrifft"
-    },
-    "onBulletFlyingTick": {
-      "name": "BobweaponGeschossFliegtTick"
     }
   }
 }

@@ -18,7 +18,7 @@ import net.minecraft.network.IPacket;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.monster.MonsterEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.ai.goal.RangedAttackGoal;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
@@ -33,6 +33,7 @@ import net.minecraft.entity.IRangedAttackMob;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.CreatureAttribute;
 
 import net.foxmods.lolocraftviii.procedures.BobWennEntitatScheitertProcedure;
@@ -71,7 +72,7 @@ public class BobEntity extends LolocraftModElements.ModElement {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 50);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 200);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 3);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 1);
@@ -79,7 +80,7 @@ public class BobEntity extends LolocraftModElements.ModElement {
 		}
 	}
 
-	public static class CustomEntity extends MonsterEntity implements IRangedAttackMob {
+	public static class CustomEntity extends CreatureEntity implements IRangedAttackMob {
 		public CustomEntity(FMLPlayMessages.SpawnEntity packet, World world) {
 			this(entity, world);
 		}
@@ -103,8 +104,7 @@ public class BobEntity extends LolocraftModElements.ModElement {
 			this.targetSelector.addGoal(2, new HurtByTargetGoal(this));
 			this.goalSelector.addGoal(3, new RandomWalkingGoal(this, 0.8));
 			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
-			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, BobEntity.CustomEntity.class, true, false));
-			this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, BobEntity.CustomEntity.class, true, true));
+			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, PlayerEntity.class, true, false));
 			this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10) {
 				@Override
 				public boolean shouldContinueExecuting() {
@@ -115,7 +115,7 @@ public class BobEntity extends LolocraftModElements.ModElement {
 
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
-			return CreatureAttribute.ILLAGER;
+			return CreatureAttribute.UNDEAD;
 		}
 
 		@Override
@@ -153,6 +153,8 @@ public class BobEntity extends LolocraftModElements.ModElement {
 				return false;
 			if (source == DamageSource.LIGHTNING_BOLT)
 				return false;
+			if (source.isExplosion())
+				return false;
 			return super.attackEntityFrom(source, amount);
 		}
 
@@ -180,7 +182,7 @@ public class BobEntity extends LolocraftModElements.ModElement {
 			return false;
 		}
 
-		private final ServerBossInfo bossInfo = new ServerBossInfo(this.getDisplayName(), BossInfo.Color.PINK, BossInfo.Overlay.PROGRESS);
+		private final ServerBossInfo bossInfo = new ServerBossInfo(this.getDisplayName(), BossInfo.Color.RED, BossInfo.Overlay.PROGRESS);
 
 		@Override
 		public void addTrackingPlayer(ServerPlayerEntity player) {

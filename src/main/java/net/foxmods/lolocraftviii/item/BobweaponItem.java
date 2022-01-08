@@ -24,9 +24,13 @@ import net.minecraft.item.ShootableItem;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.ai.attributes.Attributes;
+import net.minecraft.entity.ai.attributes.AttributeModifier;
+import net.minecraft.entity.ai.attributes.Attribute;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.IRendersAsItem;
 import net.minecraft.entity.EntityType;
@@ -35,7 +39,6 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.util.ITooltipFlag;
 
 import net.foxmods.lolocraftviii.procedures.BobweaponWennGeschossAufBlockTrifftProcedure;
-import net.foxmods.lolocraftviii.procedures.BobweaponGeschossFliegtTickProcedure;
 import net.foxmods.lolocraftviii.itemgroup.LoloCraftV3ItemGroup;
 import net.foxmods.lolocraftviii.entity.renderer.BobweaponRenderer;
 import net.foxmods.lolocraftviii.LolocraftModElements;
@@ -46,6 +49,9 @@ import java.util.Map;
 import java.util.List;
 import java.util.HashMap;
 import java.util.AbstractMap;
+
+import com.google.common.collect.Multimap;
+import com.google.common.collect.ImmutableMultimap;
 
 @LolocraftModElements.ModElement.Tag
 public class BobweaponItem extends LolocraftModElements.ModElement {
@@ -68,7 +74,7 @@ public class BobweaponItem extends LolocraftModElements.ModElement {
 
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(LoloCraftV3ItemGroup.tab).maxDamage(50));
+			super(new Item.Properties().group(LoloCraftV3ItemGroup.tab).maxDamage(250));
 			setRegistryName("bobweapon");
 		}
 
@@ -101,6 +107,20 @@ public class BobweaponItem extends LolocraftModElements.ModElement {
 		}
 
 		@Override
+		public Multimap<Attribute, AttributeModifier> getAttributeModifiers(EquipmentSlotType slot) {
+			if (slot == EquipmentSlotType.MAINHAND) {
+				ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
+				builder.putAll(super.getAttributeModifiers(slot));
+				builder.put(Attributes.ATTACK_DAMAGE,
+						new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Ranged item modifier", (double) 28, AttributeModifier.Operation.ADDITION));
+				builder.put(Attributes.ATTACK_SPEED,
+						new AttributeModifier(ATTACK_SPEED_MODIFIER, "Ranged item modifier", -2.4, AttributeModifier.Operation.ADDITION));
+				return builder.build();
+			}
+			return super.getAttributeModifiers(slot);
+		}
+
+		@Override
 		public void onPlayerStoppedUsing(ItemStack itemstack, World world, LivingEntity entityLiving, int timeLeft) {
 			if (!world.isRemote && entityLiving instanceof ServerPlayerEntity) {
 				ServerPlayerEntity entity = (ServerPlayerEntity) entityLiving;
@@ -119,7 +139,7 @@ public class BobweaponItem extends LolocraftModElements.ModElement {
 						}
 					}
 					if (entity.abilities.isCreativeMode || stack != ItemStack.EMPTY) {
-						ArrowCustomEntity entityarrow = shoot(world, entity, random, 1f, 1, 6);
+						ArrowCustomEntity entityarrow = shoot(world, entity, random, 1f, 4, 20);
 						itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 						if (entity.abilities.isCreativeMode) {
 							entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.CREATIVE_ONLY;
@@ -219,11 +239,6 @@ public class BobweaponItem extends LolocraftModElements.ModElement {
 			World world = this.world;
 			Entity entity = this.func_234616_v_();
 			Entity imediatesourceentity = this;
-
-			BobweaponGeschossFliegtTickProcedure.executeProcedure(Stream
-					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
-							new AbstractMap.SimpleEntry<>("z", z))
-					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			if (this.inGround) {
 				this.remove();
 			}
@@ -237,6 +252,7 @@ public class BobweaponItem extends LolocraftModElements.ModElement {
 		entityarrow.setIsCritical(true);
 		entityarrow.setDamage(damage);
 		entityarrow.setKnockbackStrength(knockback);
+		entityarrow.setFire(100);
 		world.addEntity(entityarrow);
 		double x = entity.getPosX();
 		double y = entity.getPosY();
@@ -254,9 +270,10 @@ public class BobweaponItem extends LolocraftModElements.ModElement {
 		double d3 = target.getPosZ() - entity.getPosZ();
 		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setDamage(1);
-		entityarrow.setKnockbackStrength(6);
+		entityarrow.setDamage(4);
+		entityarrow.setKnockbackStrength(20);
 		entityarrow.setIsCritical(true);
+		entityarrow.setFire(100);
 		entity.world.addEntity(entityarrow);
 		double x = entity.getPosX();
 		double y = entity.getPosY();
