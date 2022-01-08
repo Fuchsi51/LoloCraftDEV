@@ -1,5 +1,4 @@
 {
-  "id_map": {},
   "mod_elements": [
     {
       "name": "Whitedesert",
@@ -7,7 +6,6 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "whitedesert"
     },
     {
@@ -16,7 +14,6 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "white_ingot"
     },
     {
@@ -25,7 +22,6 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "white_ore"
     },
     {
@@ -34,7 +30,6 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "white_block"
     },
     {
@@ -43,7 +38,6 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "white_ore_smelting"
     },
     {
@@ -52,7 +46,6 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "white_armor",
       "metadata": {
         "eh": true,
@@ -67,7 +60,6 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "white_armor_helmet_recipe"
     },
     {
@@ -76,7 +68,6 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "white_armor_body_recipe"
     },
     {
@@ -85,7 +76,6 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "white_armor_leggings_recipe"
     },
     {
@@ -94,7 +84,6 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "white_armor_boots_recipe"
     },
     {
@@ -103,7 +92,6 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "white_pickaxe"
     },
     {
@@ -112,7 +100,6 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "white_axe"
     },
     {
@@ -121,7 +108,6 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "white_sword"
     },
     {
@@ -130,7 +116,6 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "white_shovel"
     },
     {
@@ -139,7 +124,6 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "white_hoe"
     },
     {
@@ -148,7 +132,6 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "white_pickaxe_recipe"
     },
     {
@@ -157,7 +140,6 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "white_axe_recipe"
     },
     {
@@ -166,7 +148,6 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "white_sword_recipe"
     },
     {
@@ -175,7 +156,6 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "white_shovel_recipe"
     },
     {
@@ -184,7 +164,6 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "white_hoe_recipe"
     },
     {
@@ -193,7 +172,6 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "lolo_craft_v_3"
     },
     {
@@ -202,7 +180,6 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "quartzbread"
     },
     {
@@ -211,7 +188,6 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mainmenu"
     },
     {
@@ -220,7 +196,6 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "newvillage"
     },
     {
@@ -229,7 +204,6 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "advanc_1"
     },
     {
@@ -238,7 +212,6 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "advanc_2"
     },
     {
@@ -247,7 +220,6 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "advanc_3"
     },
     {
@@ -256,7 +228,6 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "whitedimension",
       "metadata": {
         "ep": true
@@ -268,7 +239,6 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "advanc_4"
     },
     {
@@ -277,7 +247,6 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "advance_5"
     },
     {
@@ -286,7 +255,6 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bob_wenn_vom_blitz_getroffen",
       "metadata": {
         "dependencies": [
@@ -315,7 +283,6 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bob_wenn_entitat_scheitert",
       "metadata": {
         "dependencies": [
@@ -344,7 +311,6 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bobweapon_wenn_geschoss_auf_block_trifft",
       "metadata": {
         "dependencies": [
@@ -373,7 +339,6 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bobweapon_geschoss_fliegt_tick",
       "metadata": {
         "dependencies": [
@@ -402,7 +367,6 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bobweapon"
     },
     {
@@ -411,7 +375,6 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bob"
     },
     {
@@ -420,7 +383,6 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bobadvan_1"
     },
     {
@@ -429,7 +391,6 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bobspawnblock_wenn_der_spieler_zu_zerstoren_beginnt",
       "metadata": {
         "dependencies": [
@@ -458,7 +419,6 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bobspawnblock_wenn_der_block_vom_spieler_zerstort_wird",
       "metadata": {
         "dependencies": [
@@ -487,7 +447,6 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "bobspawnblock"
     },
     {
@@ -496,7 +455,6 @@
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "craftbobspawner"
     },
     {
@@ -505,7 +463,6 @@
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_lolo_ingot"
     },
     {
@@ -514,7 +471,6 @@
       "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_lolo_ore"
     },
     {
@@ -523,7 +479,6 @@
       "sortid": 41,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_lolo_block"
     },
     {
@@ -532,7 +487,6 @@
       "sortid": 42,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_lolo_ore_block_recipe"
     },
     {
@@ -541,7 +495,6 @@
       "sortid": 43,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_lolo_block_ore_recipe"
     },
     {
@@ -550,7 +503,6 @@
       "sortid": 44,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_lolo_ore_smelting"
     },
     {
@@ -559,7 +511,6 @@
       "sortid": 45,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_wood_wood"
     },
     {
@@ -568,7 +519,6 @@
       "sortid": 46,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_wood_log"
     },
     {
@@ -577,7 +527,6 @@
       "sortid": 47,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_wood_planks"
     },
     {
@@ -586,7 +535,6 @@
       "sortid": 48,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_wood_leaves"
     },
     {
@@ -595,7 +543,6 @@
       "sortid": 49,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_wood_stairs"
     },
     {
@@ -604,7 +551,6 @@
       "sortid": 50,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_wood_slab"
     },
     {
@@ -613,7 +559,6 @@
       "sortid": 51,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_wood_fence"
     },
     {
@@ -622,7 +567,6 @@
       "sortid": 52,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_wood_fence_gate"
     },
     {
@@ -631,7 +575,6 @@
       "sortid": 53,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_wood_pressure_plate"
     },
     {
@@ -640,7 +583,6 @@
       "sortid": 54,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_wood_button"
     },
     {
@@ -649,7 +591,6 @@
       "sortid": 55,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_wood_items_tag"
     },
     {
@@ -658,7 +599,6 @@
       "sortid": 56,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_wood_wood_recipe"
     },
     {
@@ -667,7 +607,6 @@
       "sortid": 57,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_wood_planks_recipe"
     },
     {
@@ -676,7 +615,6 @@
       "sortid": 58,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_wood_stairs_recipe"
     },
     {
@@ -685,7 +623,6 @@
       "sortid": 59,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_wood_slab_recipe"
     },
     {
@@ -694,7 +631,6 @@
       "sortid": 60,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_wood_fence_recipe"
     },
     {
@@ -703,7 +639,6 @@
       "sortid": 61,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_wood_fence_gate_recipe"
     },
     {
@@ -712,7 +647,6 @@
       "sortid": 62,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_wood_pressure_plate_recipe"
     },
     {
@@ -721,7 +655,6 @@
       "sortid": 63,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_wood_button_recipe"
     },
     {
@@ -730,7 +663,6 @@
       "sortid": 64,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_wood_stick_recipe"
     },
     {
@@ -739,7 +671,6 @@
       "sortid": 65,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "blacklolobiom"
     },
     {
@@ -748,7 +679,6 @@
       "sortid": 66,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_pickaxe"
     },
     {
@@ -757,7 +687,6 @@
       "sortid": 67,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_axe"
     },
     {
@@ -766,7 +695,6 @@
       "sortid": 68,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_sword"
     },
     {
@@ -775,7 +703,6 @@
       "sortid": 69,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_shovel"
     },
     {
@@ -784,7 +711,6 @@
       "sortid": 70,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_hoe"
     },
     {
@@ -793,7 +719,6 @@
       "sortid": 71,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_pickaxe_recipe"
     },
     {
@@ -802,7 +727,6 @@
       "sortid": 72,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_axe_recipe"
     },
     {
@@ -811,7 +735,6 @@
       "sortid": 73,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_sword_recipe"
     },
     {
@@ -820,7 +743,6 @@
       "sortid": 74,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_shovel_recipe"
     },
     {
@@ -829,7 +751,6 @@
       "sortid": 75,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_hoe_recipe"
     },
     {
@@ -838,7 +759,6 @@
       "sortid": 76,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_armor",
       "metadata": {
         "eh": true,
@@ -853,7 +773,6 @@
       "sortid": 77,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_armor_helmet_recipe"
     },
     {
@@ -862,7 +781,6 @@
       "sortid": 78,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_armor_body_recipe"
     },
     {
@@ -871,7 +789,6 @@
       "sortid": 79,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_armor_leggings_recipe"
     },
     {
@@ -880,7 +797,6 @@
       "sortid": 80,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "black_armor_boots_recipe"
     }
   ],
@@ -905,25 +821,25 @@
   ],
   "language_map": {
     "en_us": {
-      "item.lolocraft.white_pickaxe": "White Pickaxe",
+      "item.lolocraft.white_pickaxe": "Bright Pickaxe",
       "item.lolocraft.bob_spawn_egg": "Bob Spawn Egg",
-      "item.lolocraft3.bobweapon": "Bob Magic wand",
+      "item.lolocraft3.bobweapon": "Bob\u0027s Wand",
       "entity.lolocraft.bob": "Bob",
       "subtitles.dryhandsremix": "dryhandsremix",
       "block.lolocraft3.black_wood_fence_gate": "Black Wood Fence Gate",
       "entity.lolocraft3.bob": "Bob",
       "block.lolocraft.black_wood_fence_gate": "Black Wood Fence Gate",
-      "item.lolocraft3.whitedimension": "White dimension Portal Igniter",
-      "item.lolocraft3.white_hoe": "White Hoe",
-      "item.lolocraft.white_shovel": "White Shovel",
+      "item.lolocraft3.whitedimension": "Bright Dimension Portal Igniter",
+      "item.lolocraft3.white_hoe": "Bright Hoe",
+      "item.lolocraft.white_shovel": "Bright Shovel",
       "block.lolocraft3.white_ore": "White Ore",
       "item.lolocraft.white_armor_helmet": "White Helmet",
-      "advancements.advanc_1.title": "A New Advanture",
+      "advancements.advanc_1.title": "A New Adventure",
       "block.lolocraft.black_wood_pressure_plate": "Black Wood Pressure Plate",
-      "advancements.advanc_2.descr": "find the White Ingot",
-      "block.lolocraft.white_block": "Block of White",
+      "advancements.advanc_2.descr": "The Shiny White Charm",
+      "block.lolocraft.white_block": "White Block",
       "block.lolocraft3.black_wood_button": "Black Wood Button",
-      "advancements.advanc_4.title": "a new dimension",
+      "advancements.advanc_4.title": "Enter The Bright",
       "item.lolocraft3.white_armor_chestplate": "White Chestplate",
       "item.lolocraft.white_hoe": "White Hoe",
       "block.lolocraft3.black_lolo_ore": "Black Lolo Ore",
@@ -984,8 +900,8 @@
       "item.lolocraft3.white_ingot": "White",
       "advancements.advanc_1.descr": "find a White Deserd ",
       "subtitles.trollolollolo": "",
-      "block.lolocraft.black_wood_fence": "Blackwood Fence",
-      "block.lolocraft.black_wood_leaves": "Blackwood Leaves",
+      "block.lolocraft.black_wood_fence": "Black Wood Fence",
+      "block.lolocraft.black_wood_leaves": "Black Wood Leaves",
       "advancements.advance_5.title": "Beat the Train ummm no Beat the Game!",
       "item.lolocraft.black_axe": "Black Axe",
       "biome.lolocraft3.blacklolobiom": "Black Lolo Biom",
@@ -1114,5 +1030,5 @@
     "modElementsPackage": "net.foxmods.lolocraftviii",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100352418
+  "mcreatorVersion": 202100353117
 }
