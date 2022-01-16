@@ -995,9 +995,9 @@
   "workspaceSettings": {
     "modid": "lolocraft",
     "modName": "LoloCraftVIII",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "The LoloCraft Mod Remake for Minecraft 1.16.5",
-    "author": "DerLoloHD",
+    "author": "DerLoloHD and TheXBOXPlayz",
     "websiteURL": "https://mclolocraft.jimdosite.com",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,

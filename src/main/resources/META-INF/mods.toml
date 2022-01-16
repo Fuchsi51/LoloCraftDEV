@@ -4,11 +4,11 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="lolocraft"
-version="1.2.0"
+version="1.2.1"
 displayName="LoloCraftVIII"
 credits="The LoloCraftV3 Mod for Minecraft 1.16.5"
 displayURL="https://mclolocraft.jimdosite.com"
-authors="DerLoloHD"
+authors="DerLoloHD and TheXBOXPlayz"
 description='''
 The LoloCraft Mod Remake for Minecraft 1.16.5
 '''
