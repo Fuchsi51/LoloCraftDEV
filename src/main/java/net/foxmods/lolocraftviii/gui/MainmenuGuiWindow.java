@@ -5,12 +5,16 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.gui.widget.button.Button;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.Minecraft;
+
+import net.foxmods.lolocraftviii.LolocraftMod;
 
 import java.util.HashMap;
 
@@ -78,6 +82,8 @@ public class MainmenuGuiWindow extends ContainerScreen<MainmenuGui.GuiContainerM
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
 		this.font.drawString(ms, "LoloCraft Menu", 9, 7, -16777216);
+		this.font.drawString(ms, "Locate", 13, 36, -12829636);
+		this.font.drawString(ms, "Gamemode", 142, 36, -12829636);
 	}
 
 	@Override
@@ -90,5 +96,23 @@ public class MainmenuGuiWindow extends ContainerScreen<MainmenuGui.GuiContainerM
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
+		this.addButton(new Button(this.guiLeft + 13, this.guiTop + 57, 108, 20, new StringTextComponent("Locate Blackbiom"), e -> {
+			if (true) {
+				LolocraftMod.PACKET_HANDLER.sendToServer(new MainmenuGui.ButtonPressedMessage(0, x, y, z));
+				MainmenuGui.handleButtonAction(entity, 0, x, y, z);
+			}
+		}));
+		this.addButton(new Button(this.guiLeft + 13, this.guiTop + 84, 114, 20, new StringTextComponent("Locate Whitedesert"), e -> {
+			if (true) {
+				LolocraftMod.PACKET_HANDLER.sendToServer(new MainmenuGui.ButtonPressedMessage(1, x, y, z));
+				MainmenuGui.handleButtonAction(entity, 1, x, y, z);
+			}
+		}));
+		this.addButton(new Button(this.guiLeft + 143, this.guiTop + 54, 77, 20, new StringTextComponent("Gamemode 0"), e -> {
+			if (true) {
+				LolocraftMod.PACKET_HANDLER.sendToServer(new MainmenuGui.ButtonPressedMessage(2, x, y, z));
+				MainmenuGui.handleButtonAction(entity, 2, x, y, z);
+			}
+		}));
 	}
 }

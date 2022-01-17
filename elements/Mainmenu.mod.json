@@ -22,6 +22,71 @@
           "x": 9,
           "y": 7
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Locate Blackbiom",
+          "onClick": {
+            "name": "Dd"
+          },
+          "width": 108,
+          "height": 20,
+          "name": "Locate Blackbiom",
+          "x": 13,
+          "y": 57
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Locate Whitedesert",
+          "onClick": {
+            "name": "Locatedessert"
+          },
+          "width": 114,
+          "height": 20,
+          "name": "Locate Whitedesert",
+          "x": 13,
+          "y": 84
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Locate",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Locate",
+          "x": 13,
+          "y": 36
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Gamemode",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Gamemode",
+          "x": 142,
+          "y": 36
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Gamemode 0",
+          "width": 77,
+          "height": 20,
+          "name": "Gamemode 0",
+          "x": 143,
+          "y": 54
+        }
       }
     ],
     "gridSettings": {

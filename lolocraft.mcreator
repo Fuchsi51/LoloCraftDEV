@@ -794,6 +794,113 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "whitedirt"
+    },
+    {
+      "name": "Dd",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dd",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MenuWennderBefehlAusgefuhrtWird",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "menu_wennder_befehl_ausgefuhrt_wird",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Menu",
+      "type": "command",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "menu"
+    },
+    {
+      "name": "Locatedessert",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "locatedessert",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gamemode0",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamemode_0",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
@@ -995,8 +1102,8 @@
   "workspaceSettings": {
     "modid": "lolocraft",
     "modName": "LoloCraftVIII",
-    "version": "1.2.1",
-    "description": "The LoloCraft Mod Remake for Minecraft 1.16.5",
+    "version": "1.2.2",
+    "description": "The LoloCraft Mod for Minecraft 1.16.5",
     "author": "DerLoloHD and TheXBOXPlayz",
     "websiteURL": "https://mclolocraft.jimdosite.com",
     "license": "All Rights Reserved",

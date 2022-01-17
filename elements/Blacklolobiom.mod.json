@@ -7,7 +7,7 @@
       "value": "Blocks.GRASS"
     },
     "undergroundBlock": {
-      "value": "Blocks.OBSIDIAN"
+      "value": "Blocks.STONE#0"
     },
     "airColor": {
       "value": -9803158,

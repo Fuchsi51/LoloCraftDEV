@@ -59,7 +59,7 @@ public class BlacklolobiomBiome extends LolocraftModElements.ModElement {
 						.setParticle(new ParticleEffectAmbience(ParticleTypes.RAIN, 0.019f)).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
-								Blocks.OBSIDIAN.getDefaultState(), Blocks.OBSIDIAN.getDefaultState())));
+								Blocks.STONE.getDefaultState(), Blocks.STONE.getDefaultState())));
 				biomeGenerationSettings.withStructure(StructureFeatures.STRONGHOLD);
 				biomeGenerationSettings.withStructure(StructureFeatures.VILLAGE_TAIGA);
 				biomeGenerationSettings.withStructure(StructureFeatures.RUINED_PORTAL);
@@ -89,7 +89,7 @@ public class BlacklolobiomBiome extends LolocraftModElements.ModElement {
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 						Feature.DISK
 								.withConfiguration(new SphereReplaceConfig(Blocks.SAND.getDefaultState(), FeatureSpread.func_242253_a(2, 4), 2,
-										ImmutableList.of(Blocks.GRASS_BLOCK.getDefaultState(), Blocks.OBSIDIAN.getDefaultState())))
+										ImmutableList.of(Blocks.GRASS_BLOCK.getDefaultState(), Blocks.STONE.getDefaultState())))
 								.withPlacement(Features.Placements.SEAGRASS_DISK_PLACEMENT).func_242731_b(4));
 				DefaultBiomeFeatures.withCavesAndCanyons(biomeGenerationSettings);
 				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
